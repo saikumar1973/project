@@ -1,0 +1,8 @@
+uuid: bdd6e549-b4d5-477c-8520-9c60f86fdaea
+langcode: en
+status: true
+dependencies: {  }
+name: NEWS_List
+vid: news_list
+description: 'Vocab for News Content Type'
+weight: 0
