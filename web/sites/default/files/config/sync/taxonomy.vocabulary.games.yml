@@ -1,0 +1,8 @@
+uuid: 4eb27609-655a-44d8-89ea-8d5bb1b041f7
+langcode: en
+status: true
+dependencies: {  }
+name: Games
+vid: games
+description: 'Games of different kinds.'
+weight: 0

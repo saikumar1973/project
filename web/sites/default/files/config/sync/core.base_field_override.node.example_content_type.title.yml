@@ -1,0 +1,18 @@
+uuid: 0f14e14b-5864-469a-a4de-b8ad930d38d7
+langcode: en
+status: true
+dependencies:
+  config:
+    - node.type.example_content_type
+id: node.example_content_type.title
+field_name: title
+entity_type: node
+bundle: example_content_type
+label: 'Example Content Type'
+description: ''
+required: true
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

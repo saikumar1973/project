@@ -1,0 +1,25 @@
+uuid: c768db70-23a7-4bac-b104-21e25c3abe94
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:basic:08247424-8e44-4c01-a727-ef97c6176ab8'
+  module:
+    - block_content
+  theme:
+    - olivero
+id: copyrightblock_3
+theme: olivero
+region: social
+weight: 0
+provider: null
+plugin: 'block_content:08247424-8e44-4c01-a727-ef97c6176ab8'
+settings:
+  id: 'block_content:08247424-8e44-4c01-a727-ef97c6176ab8'
+  label: 'Copy Right Block'
+  label_display: '0'
+  provider: block_content
+  status: true
+  info: ''
+  view_mode: full
+visibility: {  }

@@ -1,0 +1,33 @@
+uuid: 934515cf-c79a-4a19-9517-8f7f14a4cc05
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_games
+    - node.type.article
+    - taxonomy.vocabulary.games
+  content:
+    - 'taxonomy_term:games:90aa997a-cf77-4e1d-9051-2416066f6afb'
+id: node.article.field_games
+field_name: field_games
+entity_type: node
+bundle: article
+label: Games
+description: ''
+required: false
+translatable: false
+default_value:
+  -
+    target_uuid: 90aa997a-cf77-4e1d-9051-2416066f6afb
+default_value_callback: ''
+settings:
+  handler: 'default:taxonomy_term'
+  handler_settings:
+    target_bundles:
+      games: games
+    sort:
+      field: name
+      direction: asc
+    auto_create: false
+    auto_create_bundle: ''
+field_type: entity_reference

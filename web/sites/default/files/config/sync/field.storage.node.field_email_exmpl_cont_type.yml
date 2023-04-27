@@ -1,0 +1,18 @@
+uuid: 40a6559d-d5c1-439c-acf5-81ff048b7809
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+id: node.field_email_exmpl_cont_type
+field_name: field_email_exmpl_cont_type
+entity_type: node
+type: email
+settings: {  }
+module: core
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

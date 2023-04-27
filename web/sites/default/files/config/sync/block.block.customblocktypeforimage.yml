@@ -1,0 +1,25 @@
+uuid: f12cc857-e41a-4835-a13a-d4ccf2a0a67f
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:custom_block_type:420af03d-0d2d-48ca-be54-6ccd872865a0'
+  module:
+    - block_content
+  theme:
+    - olivero
+id: customblocktypeforimage
+theme: olivero
+region: primary_menu
+weight: 0
+provider: null
+plugin: 'block_content:420af03d-0d2d-48ca-be54-6ccd872865a0'
+settings:
+  id: 'block_content:420af03d-0d2d-48ca-be54-6ccd872865a0'
+  label: 'Custom Block Type for Image'
+  label_display: visible
+  provider: block_content
+  status: true
+  info: ''
+  view_mode: full
+visibility: {  }

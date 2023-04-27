@@ -1,0 +1,18 @@
+uuid: aa088656-c206-465f-927c-9eb1fba7736c
+langcode: en
+status: true
+dependencies:
+  module:
+    - menu_ui
+third_party_settings:
+  menu_ui:
+    available_menus:
+      - main
+    parent: 'main:'
+name: 'example content type'
+type: example_content_type
+description: ''
+help: ''
+new_revision: true
+preview_mode: 1
+display_submitted: true

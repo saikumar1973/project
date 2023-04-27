@@ -1,0 +1,14 @@
+uuid: d9ab41be-28fb-4348-aba3-07eff7e4f91d
+langcode: en
+status: true
+dependencies:
+  config:
+    - user.role.smooth_operator
+  module:
+    - user
+id: user_remove_role_action.smooth_operator
+label: 'Remove the Smooth Operator role from the selected user(s)'
+type: user
+plugin: user_remove_role_action
+configuration:
+  rid: smooth_operator

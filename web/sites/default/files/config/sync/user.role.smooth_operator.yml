@@ -1,0 +1,32 @@
+uuid: ce4ebd9f-b44c-4153-bd37-374593fa7665
+langcode: en
+status: true
+dependencies:
+  config:
+    - node.type.article
+    - node.type.page
+  module:
+    - block_content
+    - comment
+    - contact
+    - field_ui
+    - filter
+    - image
+    - node
+    - path
+    - toolbar
+id: smooth_operator
+label: 'Smooth Operator'
+weight: -8
+is_admin: null
+permissions:
+  - 'access toolbar'
+  - 'administer block_content display'
+  - 'administer comment form display'
+  - 'administer contact forms'
+  - 'administer filters'
+  - 'administer image styles'
+  - 'create url aliases'
+  - 'edit any article content'
+  - 'edit any page content'
+  - 'edit own comments'

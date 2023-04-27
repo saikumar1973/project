@@ -1,0 +1,14 @@
+uuid: 91221602-7135-4200-a932-d906d00cb63b
+langcode: en
+status: true
+dependencies:
+  config:
+    - user.role.smooth_operator
+  module:
+    - user
+id: user_add_role_action.smooth_operator
+label: 'Add the Smooth Operator role to the selected user(s)'
+type: user
+plugin: user_add_role_action
+configuration:
+  rid: smooth_operator

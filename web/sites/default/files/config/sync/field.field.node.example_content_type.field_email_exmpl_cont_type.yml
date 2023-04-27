@@ -1,0 +1,19 @@
+uuid: 840dc236-e6cb-47ae-9c02-28544edb8a59
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_email_exmpl_cont_type
+    - node.type.example_content_type
+id: node.example_content_type.field_email_exmpl_cont_type
+field_name: field_email_exmpl_cont_type
+entity_type: node
+bundle: example_content_type
+label: 'email exmpl cont type'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: email

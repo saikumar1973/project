@@ -1,0 +1,33 @@
+_core:
+  default_config_hash: CXhei_vpaZk-3f_Mj2cH0YmpK-ZpKHoSzVA3yZrDq0g
+definitions:
+  contact__site_page:
+    menu_name: footer
+    parent: ''
+    weight: 0
+    expanded: false
+    enabled: true
+  help__main:
+    enabled: true
+    menu_name: admin
+    parent: system.admin
+    expanded: false
+    weight: 9
+  standard__front_page:
+    menu_name: main
+    parent: ''
+    weight: 0
+    expanded: false
+    enabled: true
+  filter__tips_all:
+    weight: 1
+    menu_name: tools
+    parent: ''
+    enabled: true
+    expanded: false
+  search__view:
+    weight: 2
+    menu_name: tools
+    parent: ''
+    expanded: false
+    enabled: true

@@ -1,0 +1,8 @@
+uuid: cbbd38d0-5f7c-4aa6-81f2-44a8d95861ff
+langcode: en
+status: true
+dependencies: {  }
+id: my-own-menu
+label: 'My Own Menu'
+description: ''
+locked: false

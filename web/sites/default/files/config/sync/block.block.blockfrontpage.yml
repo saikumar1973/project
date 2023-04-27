@@ -1,0 +1,25 @@
+uuid: 683601f7-58c6-4ae4-aead-b7142a3f70a7
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:custom_block_type:2caf195b-d9c3-4a79-8f07-9d29961705ae'
+  module:
+    - block_content
+  theme:
+    - olivero
+id: blockfrontpage
+theme: olivero
+region: footer_top
+weight: 0
+provider: null
+plugin: 'block_content:2caf195b-d9c3-4a79-8f07-9d29961705ae'
+settings:
+  id: 'block_content:2caf195b-d9c3-4a79-8f07-9d29961705ae'
+  label: 'Block Front Page'
+  label_display: visible
+  provider: block_content
+  status: true
+  info: ''
+  view_mode: full
+visibility: {  }

@@ -1,0 +1,33 @@
+uuid: 1e8bcbc1-1de2-43ce-baa7-398df4ebc15b
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:custom_block_type:420af03d-0d2d-48ca-be54-6ccd872865a0'
+  module:
+    - block_content
+    - node
+  theme:
+    - olivero
+id: customblocktypeforimage_2
+theme: olivero
+region: content
+weight: 0
+provider: null
+plugin: 'block_content:420af03d-0d2d-48ca-be54-6ccd872865a0'
+settings:
+  id: 'block_content:420af03d-0d2d-48ca-be54-6ccd872865a0'
+  label: 'Custom Block Type for Image'
+  label_display: '0'
+  provider: block_content
+  status: true
+  info: ''
+  view_mode: full
+visibility:
+  'entity_bundle:node':
+    id: 'entity_bundle:node'
+    negate: false
+    context_mapping:
+      node: '@node.node_route_context:node'
+    bundles:
+      page: page

@@ -1,0 +1,8 @@
+uuid: c07bd8d0-e508-4562-b841-69bdd5963c67
+langcode: en
+status: true
+dependencies: {  }
+id: custom_block_type
+label: 'Custom Block Type'
+revision: 0
+description: 'Drupal’s core software can be extended and customized in remarkable ways. Install additional functionality and change the look of your site using addons contributed by our community.'
